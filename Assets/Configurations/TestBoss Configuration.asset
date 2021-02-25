@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dd9b521f8d455e9cac0b7f462cbf7c, type: 3}
+  m_Name: TestBoss Configuration
+  m_EditorClassIdentifier: 
+  BossViewPrefab: {fileID: 0}
+  BossConfigs:
+  - Rigidbody:
+      Resolved: 0
+      Acceleration: {x: 0, y: 0}
+      Velocity: {x: 4, y: 0}
+      Position: {x: -1.5, y: 0.3}
+      PreviousPosition: {x: 0, y: 0}
+      MaxVelocity: {x: 10, y: 10}
+      Static: 0
+      Mass: 0
+      Bounciness: 1
+      Friction: 0
+      HasCollider: 0
+      IgnoreGravity: 1
+    HealthPoint: 4
+    EnemySpawnTime: 4
+    EnemyViewPrefab: {fileID: 8645586925387052281, guid: 8cf13d2e1e95ce14ea23a9fe4c2da640,
+      type: 3}
+    ViewPrefab: {fileID: 7170397764558977742, guid: a89db346f1ceaf4489511fec4db6748e,
+      type: 3}
+    Damage: 0
+    ImmortalTime: 0
+    StepAfterDamage: 0.3
+  ImmortalTime: 3
