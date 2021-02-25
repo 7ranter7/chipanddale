@@ -38,12 +38,6 @@ namespace ChipNDale
             }
             
             
-            if (Animator != null)
-            {
-                Animator.SetBool("Collision", verticalCollision);
-                Animator.SetFloat("VelocityX", rigidbody.Velocity.x);
-                Animator.SetFloat("VelocityY", rigidbody.Velocity.y);
-            }
 
 
             if (rigidbody.Velocity.x > 0)

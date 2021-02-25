@@ -127,7 +127,6 @@ namespace ChipNDale
         
         public void HideNewGame()
         {
-            Debug.Log("Hide");
             AudioSource.clip = boss;
             AudioSource.loop = true;
             AudioSource.Play();

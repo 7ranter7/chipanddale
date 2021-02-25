@@ -37,10 +37,8 @@ namespace ChipNDale
                 if (entity.Has<Player>())
                 {
                     ref var player = ref entity.Get<Player>();
-                    Debug.Log(2);
                     if (StaticMapView.Instance != null)
                     {
-                        Debug.Log(1);
                         StaticMapView.Instance.SetHP(player.HeatlhPoint);
                     }
                 }
